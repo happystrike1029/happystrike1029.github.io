@@ -1,132 +1,52 @@
-# Tale
+<h1>Flexton is an ultra-minimalist and responsive theme for Jekyll</h1>
 
-[![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
+<p>Flexton created especially for those who appreciate minimalism and functionality.</p>
+<p>Amazing flexibility with pleasant colors and custom design makes Flexton a simple theme, suitable for almost any blog.</p>
 
-Tale is a minimal Jekyll theme curated for storytellers. Checkout the demo [here](https://chesterhow.github.io/tale/).
+<h2>Demo</h2>
 
-![Tale screenshot](http://i.imgur.com/pXZrtmo.png)
+Check the theme in action [Demo](https://flexton.netlify.com/)
 
-## Features
-- Easy installation
-- Compatible with GitHub Pages
-- Responsive design (looks just as good on mobile)
-- Syntax highlighting, with the help of Pygments
-- Markdown and HTML text formatting
-- Pagination of posts
-- Sticky posts
-- Tags
-- Excerpt management
-- [Disqus comments (can be enabled if needed)](#enabling-comments)
+![Page preview](https://github.com/artemsheludko/flexton/blob/master/images/preview.png?raw=true)
 
-## Installation
-There are 3 ways to install this theme
+<h2>Features</h2>
 
-1. Install it as a Ruby Gem (for self-hosted sites)
-2. Install it with the `jekyll-remote-theme` plugin (for GitHub Pages hosted sites)
-3. Fork the project directly
+<ul>
+	<li>100% responsive and clean theme</li>
+ 	<li>Optimized for mobile devices</li>
+	<li>Valid HTML5 code</li>
+	<li>Included site search</li>
+	<li>Contact Page</li>
+	<li>Post sharing</li>
+	<li>Supports Mail Chimp Subscriber</li>
+	<li>Supports Disqus Comments</li>
+	<li>Social Media Profiles</li>
+	<li>Contact Form - FormsPree</li>
+	<li>Evil Icons</li>
+	<li>Google Fonts</li>
+</ul>
 
-### Ruby Gem method
-1. Add this line to your `Gemfile`:
+<h2>Credits</h2>
 
-```ruby
-gem "tale"
-```
+<p>I have used the following scripts, fonts or other files as listed.</p>
 
-2. Install the theme's gems and dependencies:
+<ul>
+  <li><a href="https://fonts.google.com/">Google Fonts</a> (Volkhov, Open Sans).</li>
+  <li><a href="http://evil-icons.io/">Evil Icons</a></li>
+  <li><a href="http://fitvidsjs.com/">FitVids.js</a></li>
+  <li><a href="https://jquery.com/">jQuery.com</a></li>
+  <li><a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a></li>
+  <li>Preview Images form <a href="https://unsplash.com/">unsplash.com</a>, <a href="https://www.pexels.com/">pexels.com</a></li>
+</ul>
 
-```bash
-$ bundle
-```
+<h2>Deployment</h2>
 
-3. In `_config.yml` add these lines:
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec serve` to start the Jekyll server.
 
-```yaml
-theme:      tale
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-permalink:  /:year-:month-:day/:title
-paginate:   5
-```
+<h2>Buy me a coffee</h2>
 
-Remove any other `theme:` lines.
-
-4. Rename `index.md` to `index.html`. Without this, the `jekyll-paginate` gem will not work.
-
-5. In `about.md`, change the `layout:` field to `post`:
-
-```Markdown
-layout: post
-```
-
-### GitHub Pages method
-1. Add these 2 lines in to your `Gemfile`:
-
-```ruby
-gem "jekyll-remote-theme"
-gem "jekyll-paginate"
-```
-
-2. Install the newly added gems:
-
-```bash
-$ bundle
-```
-
-3. In `_config.yml` add these lines:
-
-```yaml
-remote_theme: chesterhow/tale
-
-permalink:    /:year-:month-:day/:title
-paginate:     5
-
-plugins:
-  - jekyll-paginate
-  - jekyll-remote-theme
-```
-
-Remove any other `theme:` or `remote_theme:` lines.
-
-4. Rename `index.md` to `index.html`. Without this, the `jekyll-paginate` gem will not work.
-
-5. In `about.md`, change the `layout:` field to `post`:
-
-```Markdown
-layout: post
-```
-
-### Fork method
-1. Fork this repository
-
-2. Delete the unnecessary files/folders: `CODE_OF_CONDUCT.md`, `LICENSE`, `README.md`, `tale.gemspec`
-
-3. Delete the `baseurl` line in `_config.yml`:
-
-```yaml
-baseurl:  "/tale"   # delete this line
-```
-
-## Usage
-Once you've installed the theme, you're ready to work on your Jekyll site. To start off, I would recommend updating `_config.yml` with your site's details.
-
-To build and serve your site, run:
-
-```bash
-$ bundle exec jekyll serve
-```
-
-And you're all set! Head over to http://127.0.0.1:4000/ to see your site in action.
-
-### Enabling Comments
-Comments are disabled by default. To enable them, look for the following line in `_config.yml` and change `jekyll-tale` to your site's Disqus id.
-
-```yml
-disqus: jekyll-tale
-```
-
-Next, add `comments: true` to the YAML front matter of the posts which you would like to enable comments for.
-
-## Contributing
-Found a bug or have a suggestion? Feel free to create an issue or make a pull request!
-
-## License
-See [LICENSE](https://github.com/chesterhow/tale/blob/master/LICENSE)
+<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
+<p>Either way, your support is a way to thank me ❤️</p>
+<p align="center"><b>Thank you for your support!</b></p>
