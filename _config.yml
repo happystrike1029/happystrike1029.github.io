@@ -14,7 +14,7 @@ about-author:   Web Developer
 # Social settings
 # social-twitter:   artemsheludko_
 # social-facebook:
-social-github:    https://github.com/happystrike1029
+social-github:    happystrike1029
 # social-pinterest: artemsheludko
 # social-instagram: artemsheludko_
 social-youtube:
@@ -28,7 +28,7 @@ social-linkedin:
 # google-analytics: # Add your identifier. For example UA-99631805-1
 
 # Comment Section (Disqus)
-disqus-identifier: db # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
 
 # Build settings
 markdown: kramdown
