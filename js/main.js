@@ -5,7 +5,10 @@ $(document).ready(function () {
   /* =======================
   // Simple Search Settings
   ======================= */
-
+  document.querySelector("#disqus_recommendations").style.display = "none";
+  document.querySelector("#disqus_thread").children[0].style.display = "none";
+  document.querySelector("#disqus_thread").children[2].style.display = "none"; 
+  
   SimpleJekyllSearch({
     searchInput: document.getElementById('js-search-input'),
     resultsContainer: document.getElementById('js-results-container'),
