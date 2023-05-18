@@ -6,6 +6,9 @@
       s.src = '//{{ site.disqus-identifier }}.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
+      document.querySelector("#disqus_recommendations").style.display = "none";
+      document.querySelector("#disqus_thread").children[0].style.display = "none";
+      document.querySelector("#disqus_thread").children[2].style.display = "none";    
     })();
   </script>
   <noscript>Please enable JavaScript to view the
